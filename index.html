@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="nav__menu" id="#menu__nav">
+        <div class="nav__area__1">
+            <a href="#">Carousel</a>
+            <ul class="nav__ul">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Disabled</a></li>
+            </ul>
+        </div>
+        <div class="nav__area__2">
+            <input class="search__input" type="search" placeholder="Search">
+            <a href="#">Search</a>
+        </div>
+        <div class="responsive__nav">
+            <div class="nav__responsive">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+    </nav>
+    <div class="fake__slider__app">
+        <div class="fake__slider">
+            <h1>Another example headline.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+    <div class="container">
+        <section class="card__app">
+            <div class="card">
+                <div class="item__1"></div>
+                <div class="item__2">
+                    <h3>Heading</h3>
+                </div>
+                <div class="item__3">
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                        ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                        Praesent commodo cursus magna.
+                    </p>
+                </div>
+                <div class="item__4"><a href="#">View Details</a></div>
+            </div>
+            <div class="card">
+                <div class="item__1"></div>
+                <div class="item__2">
+                    <h3>Heading</h3>
+                </div>
+                <div class="item__3">
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                        ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                        Praesent commodo cursus magna.
+                    </p>
+                </div>
+                <div class="item__4"><a href="#">View Details</a></div>
+            </div>
+            <div class="card">
+                <div class="item__1"></div>
+                <div class="item__2">
+                    <h3>Heading</h3>
+                </div>
+                <div class="item__3">
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                        ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                        Praesent commodo cursus magna.
+                    </p>
+                </div>
+                <div class="item__4"><a href="#">View Details</a></div>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <hr class="line__divider">
+    </div>
+    <div class="container">
+        <div class="content">
+            <section class="content__text">
+                <h2>First featurette heading. <span> It'll blow your mind.</span></h2>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                    semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus
+                    ac cursus commodo.</p>
+            </section>
+            <section class="content__image">
+                <div>500x500</div>
+            </section>
+        </div>
+    </div>
+    <div class="container">
+        <hr class="line__divider">
+    </div>
+    <div class="container">
+        <div class="content__1">
+            <section class="content__text">
+                <h2>Oh yeah, it's that good. <span>See for yourself.</span></h2>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                    semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus
+                    ac cursus commodo.</p>
+            </section>
+            <section class="content__image">
+                <div>500x500</div>
+            </section>
+        </div>
+    </div>
+    <div class="container">
+        <hr class="line__divider">
+    </div>
+    <div class="container">
+        <div class="content__2">
+            <section class="content__text">
+                <h2>And lastly, this one. <span>Checkmate.</span></h2>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+                    semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus
+                    ac cursus commodo.</p>
+            </section>
+            <section class="content__image">
+                <div>500x500</div>
+            </section>
+        </div>
+    </div>
+    <div class="container">
+        <hr class="line__divider">
+    </div>
+    <div class="container">
+        <footer>
+            <div class="area__1">
+                © 2017-2018 Company, Inc. ·
+
+                <a href="#"> Privacy</a>
+                ·
+                <a href="#">Terms</a>
+            </div>
+            <div class="area__2"><a href="#" id="top">Back to top</a></div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script>
+        $('#top').on('click', function () {
+            $("html, body").animate({ scrollTop: 0 }, 1000);
+        });
+    </script>
+</body>
+
+</html>
